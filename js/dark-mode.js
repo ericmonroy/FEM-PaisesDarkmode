@@ -1,3 +1,5 @@
+/**function change color website */
+
 const btnDark = document.querySelector(".btn-dark-mode");
 btnDark.addEventListener('click', () => {
     console.log("click dark mode");
