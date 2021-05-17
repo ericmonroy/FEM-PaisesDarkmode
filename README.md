@@ -30,12 +30,12 @@ Users should be able to:
 
 ### Screenshot
 
-![]([./screenshot.jpg](https://user-images.githubusercontent.com/2591757/118417375-6cf18e00-b679-11eb-9a90-aa3aa7ed984a.jpg))
+![./screenshot.jpg](https://user-images.githubusercontent.com/2591757/118417375-6cf18e00-b679-11eb-9a90-aa3aa7ed984a.jpg)
 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://ericmonroy.github.io/paises-darkmode/)
+- Live Site URL: [Demo](https://ericmonroy.github.io/paises-darkmode/)
 
 ## My process
 

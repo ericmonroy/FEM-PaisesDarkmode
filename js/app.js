@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 // get data from api.json
 const fetchData = async () => {
     try {
-        const res = await fetch('api.json');
+        const res = await fetch('https://restcountries.eu/rest/v2/all');
         const data = await res.json();
         flagsData(data);
         formClient(data);

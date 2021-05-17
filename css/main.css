@@ -204,6 +204,8 @@ body.dark-mode {
     cursor: pointer;
     font-size: 14px;
     padding: 3px 1.5rem 2px 1.5rem;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .btn-back {
