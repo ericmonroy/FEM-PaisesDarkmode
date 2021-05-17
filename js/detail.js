@@ -1,4 +1,5 @@
 const flagsDetail = document.getElementById("flagDetail");
+flagsDetail.innerHTML = `Loading Detail country...`;
 const query = new URLSearchParams(window.location.search);
 let code;
 
@@ -23,6 +24,7 @@ const fetchDataName = async (code) => {
 
     } catch (error) {
         console.log(error);
+        flags.innerHTML = `Error get detail country.`;
     }
 };
 

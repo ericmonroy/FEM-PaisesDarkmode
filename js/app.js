@@ -1,5 +1,6 @@
 // get id from DOM
 const flags = document.querySelector('#flags');
+flags.innerHTML = `Loading Countries...`;
 
 // init load fetch data
 document.addEventListener('DOMContentLoaded', (e) => {
@@ -16,6 +17,7 @@ const fetchData = async () => {
         filters(data);
     } catch (error) {
         console.log(error);
+        flags.innerHTML = load;
     }
 };
 
